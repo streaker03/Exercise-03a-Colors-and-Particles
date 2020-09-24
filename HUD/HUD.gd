@@ -47,7 +47,7 @@ func _on_Color_Ball_toggled(button_pressed):
 	emit_signal("changed")
 
 
-func _on_Color_Blocks_toggled(button_pressed):
+func _on_Color_Blocks_toggled_(button_pressed):
 	color_blocks = false if color_blocks else true
 	emit_signal("changed")
 
